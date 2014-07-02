@@ -1,54 +1,14 @@
-# A really-real time collaborative word processor for the web
-![alt text](http://i.imgur.com/zYrGkg3.gif "Etherpad in action on PrimaryPad")
+# Etherpad-lite fork of the Fachschaft Informatik at the university Kaiserslautern
 
-# About
-Etherpad is a really-real time collaborative editor maintained by the Etherpad Community.
+This fork only exists to implement small changes required by the Fachschaft Informatik  at the university Kaiserslautern.
+If you are looking for etherpad-lite please check the offical repository: https://github.com/ether/etherpad-lite
 
-Etherpad is written in Javascript(99.9%) on both the server and client so it's easy for developers to maintain and add new features.  Because of this Etherpad has tons of customizations that you can leverage.
-
-Etherpad is designed to be easily embeddable and provides a [HTTP API](https://github.com/ether/etherpad-lite/wiki/HTTP-API)
-that allows your web application to manage pads, users and groups. It is recommended to use the [available client implementations](https://github.com/ether/etherpad-lite/wiki/HTTP-API-client-libraries) in order to interact with this API. 
-
-There is also a [jQuery plugin](https://github.com/ether/etherpad-lite-jquery-plugin) that helps you to embed Pads into your website.
-
-There's also a full-featured plugin framework, allowing you to easily add your own features.  By default your Etherpad is rather sparce and because Etherpad takes a lot of it's inspiration from Wordpress plugins are really easy to install and update.  Once you have Etherpad installed you should visit the plugin page and take control.
-
-Finally, Etherpad comes with translations into most languages!  Users are automatically delivered the correct language for their local settings.
-
-
-**Visit [beta.etherpad.org](http://beta.etherpad.org) to test it live.**
-
-Also, check out the **[FAQ](https://github.com/ether/etherpad-lite/wiki/FAQ)**, really!
+The software in this repository is not inteded to work anywhere in the world outside our servers !
 
 # Installation
 
 Etherpad works with node v0.8, v0.10 and v0.11, only. (We don't support v0.6)
 
-## Windows
-
-### Prebuilt windows package
-This package works out of the box on any windows machine, but it's not very useful for developing purposes...
-
-1. [Download the latest windows package](http://etherpad.org/#download)
-2. Extract the folder
-
-Now, run `start.bat` and open <http://localhost:9001> in your browser. You like it? [Next steps](#next-steps).
-
-### Fancy install
-You'll need [node.js](http://nodejs.org) and (optionally, though recommended) git.
-
-1. Grab the source, either
-  - download <https://github.com/ether/etherpad-lite/zipball/master>
-  - or `git clone https://github.com/ether/etherpad-lite.git` (for this you need git, obviously)
-2. start `bin\installOnWindows.bat`
-
-Now, run `start.bat` and open <http://localhost:9001> in your browser.
-
-Update to the latest version with `git pull origin`, then run `bin\installOnWindows.bat`, again.
-
-[Next steps](#next-steps).
-
-## GNU/Linux and other UNIX-like systems
 You'll need gzip, git, curl, libssl develop libraries, python and gcc.  
 *For Debian/Ubuntu*: `apt-get install gzip git-core curl python libssl-dev pkg-config build-essential`  
 *For Fedora/CentOS*: `yum install gzip git-core curl python openssl-devel && yum groupinstall "Development Tools"`
