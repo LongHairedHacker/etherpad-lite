@@ -108,9 +108,9 @@ body.doesWrap {
 }
 
 .sidedivdelayed { /* class set after sizes are set */
-  background-color: #eee;
-  color: #888 !important;
-  border-right: 1px solid #ccc;
+  background-color: #740074;
+  color: #FFFFFF !important;
+  border-right: 1px solid #7200BA;
 }
 .sidedivhidden {
   display: none;
